@@ -1,0 +1,50 @@
+body {
+    background-color: whitesmoke;
+    color: black;
+  }
+  
+  body.dark-mode {
+    background-color: #222222;
+    color: white;
+  }
+  
+.main{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    height: 700px;
+    width: auto;
+    border: 1px solid rgb(255, 255, 255);
+
+}
+.leftsection{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 300px;
+    border: 1px solid rgb(248, 246, 246);
+}
+.rightsection{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 800px;
+    border: 1px solid rgb(248, 246, 246);
+}
+img{
+    height: 350px;
+    width: 300px;
+    border: 1px solid rgb(247, 246, 246);
+    border-radius: 50%;
+
+}
+.page{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: last baseline;
+    
+    height: 100px;
+    width: auto;
+    border: 1px solid rgb(248, 247, 247);
+}
