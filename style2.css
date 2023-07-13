@@ -42,7 +42,7 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    justify-content: last baseline;
+    justify-content:space-evenly;
     
     height: 100px;
     width: auto;
