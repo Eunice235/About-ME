@@ -7,48 +7,72 @@
     
     <link rel="icon" type="image/x-icon" href="image/icons8-hiragana-ma-32.png">
     <link rel="stylesheet" href="style2.css">
+
+    <script>
+      // Check if a preferred mode is stored in localStorage
+      const preferredMode = localStorage.getItem('preferredMode');
+    
+      // Set the CSS class on the body element based on the preferred mode
+      if (preferredMode === 'dark') {
+        document.body.classList.add('dark-mode');
+      }
+    </script>
+    
 </head>
 <body>
     
     <nav class="page">
-        <a href="Index.html"> <h3>Experience</h3></a>
-        <a href="cert.html"> <h3>certifications</h3></a>
-        <a href="projects.html"> <h3>projects</h3></a>
+        <ul>
+           <li><a href="Index.html"> <h3>Experience</h3></a></li>
+           <li><a href="cert.html"> <h3>Certifications</h3></a></li>
+           <li><a href="projects.html"> <h3>Projects</h3></a></li>
+        </ul>
         
-        <img  id="lightmode" src="image\icons8-sun-24.png" alt="lightmode" style="height: 20px; width: 20px;">
+        
     </nav>
-    <h3>About ME</h3>
+    <h1>About ME</h1>
+    <img  id="lightmode" src="image\icons8-sun-24.png" alt="lightmode" style="height: 20px; width: 20px;">
 
     <div class="main">
         <div  class="leftsection">
+        
              <img src="image\WhatsApp Image 2023-07-11 at 12.03.09.jpeg" alt="image">
+        
              <h3>Eunice Maina</h3>
-             <p>Software Engineer || Technical Writer|| Community  Advocate</p>
+             <p>Software Engineer || Community  Advocate</p>
              <div>
                 <a href="https://github.com/Eunice235"> <img src="image\icons8-github-50.png " alt="Github" style="height:20px ; width: 20px; border: 1px solid black;" ></a>
                 <a href="https://www.linkedin.com/in/eunice-maina-560bab251/" > <img src="image/icons8-linkedin-48.png" alt="linkedin" style="height: 20px; width: 20px;"></a>
                 <a href="https://twitter.com/Eunice883181451?t=HyPEfflCSv9nt8_WlEjRJw&s=09"><img src="image\icons8-twitter-48.png" alt="twitter" style="height: 20px; width: 20px;" ></a></div>
-             <form action="">
-                 <input type="text"  id="cv" value="DOWNLOAD CV">
-             </form>
+                <form action="">
+                  <input type="text" id="cv" value="Download CV">
+                </form>
+             
         </div>
         <div class="rightsection">
-            <p>Hello World! My name is Ondiek Elijah Ochieng. I’m a Software Engineer, a technical article writer and a community advocate.</p>
-            <p>As an active member of the tech community, I have made significant contributions through my roles as an author at SheCodeAfrica, Nairobi, a visual designer at Lux Tech Academy, a gold Microsoft Learn Student Ambassador, GDSC Lead, and AWS Community Builder. Additionally, I share my expertise as an author for Educative Inc and Draft.dev. Through these roles, I strive to empower and inspire individuals to learn and grow in the tech ecosystem.</p>
+            <p>Hello World! My name is Maina Eunice Waithira. I’m a Software Engineer and a community advocate.</p>
+            <p>As an active member of the tech community, I have made significant contributions through my roles in participating in Devtown community, a gold Microsoft Learn Student, GDSC member, and AWS Community Builder. Through these roles, I strive to empower and inspire individuals to learn and grow in the tech ecosystem.</p>
             <p>During my years of professional development, I've been able to gain professional and practical knowledge of the following programming languages and tools. </p>
-            <p>Languages: HTML5, CSS3, Python, JavaScript (ES6), SQL</p>
-            <p>Frameworks: Flask, FastAPI, React, Next.js, Node.js, Express.js, Bootstrap5, TailwindCSS, Material UI</p>
-            <p>Tools and Skills: Git, GitHub & GitLab, Docker, RabbitMQ, AWS, Azure, Heroku, Digital Ocean, Sanity.io, HygraphCMS, GraphQL, Netlify, MySQL, MongoDB and PostgreSQL databases, Linux, Microservices, REST and GraphQL APIs, automation Testing(Manual and Automated) with Cypress, Pact, Pytest, Jest, Chai, Mocha, CircleCI and GitHub actions, Technical Writing.</p>
+            <p>Languages: HTML5, CSS3, JavaScript (ES6), SQL</p>
+            <p>Frameworks: React, Bootstrap5, TailwindCSS</p>
+            <p>Tools and Skills: Git, GitHub & GitLab, Active directory, MyQ, AWS, Azure, MySQL, MongoDB and firebase, Linux, Outlook, and GitHub actionsand a bit of technical writing using markdown.</p>
         </div>
     </div>
-    <div class="footer">
-        <footer>
-            <h3>Email me @ eunicemaina237@gmail.com</h3>
-            <h3>phone number @ +254741873618</h3>
-            <p>Have a good day</p>
-
-        </footer>
-    </div>
+    <footer class="footer">
+        <div class="footer-content">
+          <p>&copy; 2023 DEV Eunice</p>
+          <ul class="social-media">
+            <li><a href="https://github.com/Eunice235"><img src="image\icons8-github-50.png " alt="Github" style="height:20px ; width: 20px; border: 1px solid black;" ></a></li>
+            <li><a href="https://www.linkedin.com/in/eunice-maina-560bab251/"><img src="image/icons8-linkedin-48.png" alt="linkedin" style="height: 20px; width: 20px;"></a></li>
+            <li><a href="https://twitter.com/Eunice883181451?t=HyPEfflCSv9nt8_WlEjRJw&s=09"><img src="image\icons8-twitter-48.png" alt="twitter" style="height: 20px; width: 20px;" ></a>
+                
+          </ul>
+          <h3>Contacts</h3>
+          <h3>E.mail @ eunicemaina237@gmail.com</h3>
+          <h3>Phone number : +254741873618</h3>
+        </div>
+      </footer>
+      
     <script src="app.js"></script>
     
 </body>

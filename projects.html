@@ -6,40 +6,72 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles3.css">
     <link rel="icon" type="image/x-icon" href="image/icons8-hiragana-ma-32.png">
+    <script>
+        // Check if a preferred mode is stored in localStorage
+        const preferredMode = localStorage.getItem('preferredMode');
+      
+        // Set the CSS class on the body element based on the preferred mode
+        if (preferredMode === 'dark') {
+          document.body.classList.add('dark-mode');
+        }
+    </script>
+      
 </head>
 <body>
     <nav class="nav">
-      <a href="Index.html">experience</a>
-      <a href="About.html">home</a>
-      <a href="cert.html">certiications</a>
+       <ul>
+          <li><a href="Index.html"><h3>Experience</h3></a></li>
+          <li><a href="About.html"><h3>About</h3></a></li>
+          <li><a href="cert.html"><h3>Certifications</h3></a></li>
+        </ul>
    </nav>
+   
    <h2>PROJECTS</h2>
+   <img  id="lightmode" src="image\icons8-sun-24.png" alt="lightmode" style="height: 20px; width: 20px;">
+
     <div class="projects">
         <div class="Newsletter">
             <img src="image\newsletter.PNG" alt="Newsletter">
-            <p>Newsletter sighnup with success message project <br>using Html5,css3, javascript<br>https://eunice235.github.io/Newsletter-sign-/</p>
+            <p>Newsletter sighnup with success message project <br>using Html5,css3, javascript<br><a href="https://eunice235.github.io/Newsletter-sign-/">Learn More</a></p>
             
         </div>
         <div class="NFT">
             <img src="image\NFT.PNG" alt="NFT">
-            <p>NFT priview card component project built with Html and css <br>https://eunice235.github.io/NFT/</p>
+            <p>NFT priview card component project built with Html and css <br> <a href="https://eunice235.github.io/NFT/">learn more</a></p>
         </div>
         <div class="preview"> 
             <img src="image/preview.PNG" alt="preview card">
-            <p> product Preview card component  built using Html and css <br>From Front-end mentors challenge<br>https://eunice235.github.io/preview-card-component/</p>
+            <p> product Preview card component  built using Html and css <br>From Front-end mentors challenge<br><a href="https://eunice235.github.io/preview-card-component/">learn more</a></p>
         </div>
         <div class="result">
             <img src="image/result.PNG" alt="Result summary component">
-            <p>Result summmary component project  built using Html and css<br>https://eunice235.github.io/results-summary/</p>
+            <p>Result summmary component project  built using Html and css<br><a href="https://eunice235.github.io/results-summary/">learn more</a></p>
         </div>
         <div class="order">
             <img src="image/stats preview.PNG" alt="Stats preview card">
-            <p>Stats preview card built using Html and css from <br> ftront-end mentors challenge<br>https://eunice235.github.io/stats-preview-card/</p>
+            <p>Stats preview card built using Html and css from <br> ftront-end mentors challenge<br><a href="https://eunice235.github.io/stats-preview-card/">learn more</a></p>
         </div>
         <div class="Qrcode">
             <img src="image/Qrcode.PNG" alt="Q code component">
-            <p>QR code component project from front-end Mentors Challenge <br> Built using Html and css<br>https://eunice235.github.io/QR-code-component/</p>
+            <p>QR code component project from front-end Mentors Challenge <br> Built using Html and css<br><a href="https://eunice235.github.io/QR-code-component/"> Learn more</a></p>
         </div>
     </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+          <p>&copy; 2023 DEV Eunice</p>
+          <ul class="social-media">
+            <li><a href="https://github.com/Eunice235"><img src="image\icons8-github-50.png " alt="Github" style="height:20px ; width: 20px; border: 1px solid black;" ></a></li>
+            <li><a href="https://www.linkedin.com/in/eunice-maina-560bab251/"><img src="image/icons8-linkedin-48.png" alt="linkedin" style="height: 20px; width: 20px;"></a></li>
+            <li><a href="https://twitter.com/Eunice883181451?t=HyPEfflCSv9nt8_WlEjRJw&s=09"><img src="image\icons8-twitter-48.png" alt="twitter" style="height: 20px; width: 20px;" ></a>
+          </ul>
+          <h3>Contacts</h3>
+          <h3>E.mail @ eunicemaina237@gmail.com</h3>
+          <h3>Phone number : +254741873618</h3>
+        </div>
+      </footer>
+
+      <script src="app.js"></script>
+
 </body>
 </html>

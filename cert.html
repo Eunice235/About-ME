@@ -6,29 +6,59 @@
     <title>Certifications</title>
     <link rel="stylesheet" href="styles3.css">
     <link rel="icon" type="image/x-icon" href="image/icons8-hiragana-ma-32.png">
+    <script>
+      // Check if a preferred mode is stored in localStorage
+      const preferredMode = localStorage.getItem('preferredMode');
+    
+      // Set the CSS class on the body element based on the preferred mode
+      if (preferredMode === 'dark') {
+        document.body.classList.add('dark-mode');
+      }
+    </script>
+    
+    
 </head>
 <body>
-    <a href="About.html">about</a>
-    <a href="Index.html">experince</a>
-    <a href="projects.html">projects</a>
+    <nav class="nav">
+      <ul>
+        <li><a href="About.html"><h3>About</h3></a></li>
+        <li><a href="Index.html"><h3>Experince</h3></a></li>
+        <li><a href="projects.html"><h3>Projects</h3></a></li>
+      </ul>
+    </nav>
     <div class="cert">
         <div class="devtown">
-            <p>What is Devtown<br>About us. We at Devtown (A research and education-based firm) are a group that hopes to provide students with opportunities to do research and create projects in the fields of AI, ML, and Web design Development. </p>
-              <p>Devtown certifications</p>
-              <p>Certificate of appreciation: in greatful recognition of a continuing support to help grow the community </p>
-              <p>certificate of participation : for successifully completing bootcamp on javascript and React-js</p>
-              <p>certificate of appreciation :  for successifully completing bootcamp on hands cloud computing with AWS</p>
-              <p> google developer student club</p>
-              <p>for successifully completing bootcamp with Devtown on hands-on cloud computing with AWS  </p>
+          <img  id="lightmode" src="image\icons8-sun-24.png" alt="lightmode" style="height: 20px; width: 20px;">
+          <h3>Devtown certifications</h3>
+            <p><b>What is Devtown</b><br>About us. We at Devtown (A research and education-based firm) are a group that hopes to provide students<br> with opportunities to do research and create projects in the fields of AI, ML, and Web design Development. </p>
+              
+              <p>• Certificate of appreciation: in greatful recognition of a continuing support to help grow the community </p>
+              <p>• certificate of participation : for successifully completing bootcamp on javascript and React-js</p>
+              <p>• certificate of appreciation :  for successifully completing bootcamp on hands cloud computing with AWS</p>
+              <h3>Google developer student club</h3>
+              <p>• for successifully completing bootcamp with Devtown on hands-on cloud computing with AWS  </p>
               <H3>KESAP RESEARCH CENTER</H3>
-              <P>certicate of merit : for successfully completing a course in in STATA . statistical packages for data analysis</P>
-              <p> certificate of merit : for successifully completing a course in spss. statistical packages for social science</p>
+              <P>• certicate of merit : for successfully completing a course in in STATA . statistical packages for data analysis</P>
+              <p>• certificate of merit : for successifully completing a course in spss. statistical packages for social science</p>
 
         </div>
-        <div class="kessap">
+        
            
-        </div>
+      
     </div>
-    
+    <footer class="footer">
+      <div class="footer-content">
+        <p>&copy; 2023 DEV Eunice</p>
+        <ul class="social-media">
+          <li><a href="https://github.com/Eunice235"><img src="image\icons8-github-50.png " alt="Github" style="height:20px ; width: 20px; border: 1px solid black;" ></a></li>
+          <li><a href="https://www.linkedin.com/in/eunice-maina-560bab251/"><img src="image/icons8-linkedin-48.png" alt="linkedin" style="height: 20px; width: 20px;"></a></li>
+          <li><a href="https://twitter.com/Eunice883181451?t=HyPEfflCSv9nt8_WlEjRJw&s=09"><img src="image\icons8-twitter-48.png" alt="twitter" style="height: 20px; width: 20px;" ></a>
+        </ul>
+        <h3>Contacts</h3>
+        <h3>E.mail @ eunicemaina237@gmail.com</h3>
+        <h3>Phone number : +254741873618</h3>
+      </div>
+    </footer>
+    <script src="app.js"></script>
 </body>
 </html>

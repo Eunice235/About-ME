@@ -1,6 +1,7 @@
 body {
     background-color: whitesmoke;
     color: black;
+    
   }
   
   body.dark-mode {
@@ -14,7 +15,7 @@ body {
     justify-content: center;
     height: 700px;
     width: auto;
-    border: 1px solid rgb(255, 255, 255);
+    /*border: 1px solid rgb(255, 255, 255);*/
 
 }
 .leftsection{
@@ -22,29 +23,115 @@ body {
     flex-direction: column;
     height: 250px;
     width: 300px;
-    border: 1px solid rgb(248, 246, 246);
+    /*border: 1px solid rgb(248, 246, 246);*/
 }
 .rightsection{
     display: flex;
     flex-direction: column;
     height: 500px;
     width: 800px;
-    border: 1px solid rgb(248, 246, 246);
+    /*border: 1px solid rgb(248, 246, 246);*/
 }
 img{
     height: 350px;
     width: 300px;
     border: 1px solid rgb(247, 246, 246);
-    border-radius: 50%;
+    border-radius: 60%;
+  
 
+}
+.pp img{
+  color: blue;
 }
 .page{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    justify-content:space-evenly;
+    /*justify-content:space-evenly;*/
+    background-color: #eb3a3a;
+    color: #fff;
     
     height: 100px;
     width: auto;
-    border: 1px solid rgb(248, 247, 247);
+    /*border: 1px solid rgb(248, 247, 247);*/
+}
+.page ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.page li{
+    margin: 0 10px;
+}
+.page a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.page a:hover{
+    color: #cccccc;
+}
+@media (max-width: 768px) {
+    .page {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .page ul {
+      flex-direction: column;
+    }
+  
+    .page li {
+      margin: 10px 0;
+    }
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+}
+.footer-content {
+  text-align: center;
+  padding: 20px;
+}
+.footer p {
+  margin: 0;
+}
+
+.footer .social-media {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.footer .social-media li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.footer .social-media a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+.footer .social-media a:hover {
+  color: #ccc;
+}
+
+
+#cv {
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  transition: background-color 0.3s, border-radius 0.3s;
+}
+
+#cv:hover {
+  background-color: rgba(2, 44, 2, 0.596);
+  border-radius: 30%;
+}
+input{
+  height:2rem ;
+  width:6rem ;
+  border-radius:1rem ;
 }
