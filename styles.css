@@ -132,18 +132,4 @@ img{
 }
 
 
-/* Example of applying styles in a media query for mobile devices */
-@media (max-width: 479px) {
-  /* CSS rules for mobile layout */
-  .header {
-    font-size: 20px;
-  }
-  
-  .navigation {
-    display: none;
-  }
-  
-  .content {
-    padding: 10px;
-  }
-}
+
