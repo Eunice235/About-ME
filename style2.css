@@ -135,3 +135,39 @@ input{
   width:6rem ;
   border-radius:1rem ;
 }
+
+/* Styles for mobile devices (up to 479px) */
+@media (max-width: 479px) {
+  /* CSS rules for mobile layout */
+}
+
+/* Styles for tablets (between 480px and 767px) */
+@media (min-width: 480px) and (max-width: 767px) {
+  /* CSS rules for tablet layout */
+}
+
+/* Styles for small desktops and laptops (between 768px and 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* CSS rules for desktop layout */
+}
+
+/* Styles for larger screens and high-resolution displays (1024px and above) */
+@media (min-width: 1024px) {
+  /* CSS rules for larger screens */
+}
+
+/* Example of applying styles in a media query for mobile devices */
+@media (max-width: 479px) {
+  /* CSS rules for mobile layout */
+  .header {
+    font-size: 20px;
+  }
+  
+  .navigation {
+    display: none;
+  }
+  
+  .content {
+    padding: 10px;
+  }
+}
