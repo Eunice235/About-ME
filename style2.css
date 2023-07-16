@@ -1,6 +1,7 @@
 @media (max-width: 479px) {
   body{
     background-color: #ccc;
+    width: 100%;
     
   }
 }
@@ -8,12 +9,14 @@
   body{
     background-color: #861717;
     /*font-size: 20px;*/
+    width: 100%;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   body{
     background-color: rgb(104, 73, 33);
     /*font-size: 24px;*/
+    width: 100%;
   }
 }
 
@@ -21,6 +24,7 @@
   body{
     background-color: rgb(70, 165, 165);
     /*font-size: 24px;*/
+    width: 100%;
   }
 }
 
